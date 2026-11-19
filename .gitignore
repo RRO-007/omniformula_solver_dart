@@ -1,57 +1,10 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+﻿# Exclude watcher, watch, and bundle files globally for all other projects
+*watcher*
+*watch*
+*bundle*
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# ============================================================
-# Helper files that should NEVER be committed to GitHub.
-# These files are used locally to generate context files for AI
-# assistants and don't belong in the source repository.
-# ============================================================
-run_watcher.bat
-watch_and_bundle.py
-omniformula_solver_bundle.txt
-*_bundle.txt
-*_watcher.bat
-watch_and_bundle.*
+# Exclude dependency and build folders
+node_modules/
+dist/
+build/
+__pycache__/
